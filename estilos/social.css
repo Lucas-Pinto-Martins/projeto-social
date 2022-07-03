@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    height: 100vh;
+}
+
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;
@@ -17,12 +21,14 @@ img{
 
 a{
     display: block;
+    position: relative;
     text-align: center;
     font-weight: bolder;
     background-color: darkred;
     color: white;
     text-decoration: none;
     padding: 20px;
+    top: -4.5px;
 }
 
 a:hover{
